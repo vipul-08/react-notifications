@@ -1,0 +1,78 @@
+.notifications-parent {
+  font-size: 14px;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 9999;
+  top: 16px;
+  right: 16px;
+}
+
+.notification {
+  width: 365px;
+  color: #fff;
+  padding: 10px;
+  transition: .3s ease;
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 6px;
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: 0 0 10px #999;
+  animation: toast-in-right 0.3s;
+}
+
+.toast {
+  display: flex;
+  float: left;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.3rem;
+}
+
+.notification-message {
+  font-weight: 700;
+}
+
+.notification-image {
+  margin: 0 15px;
+}
+
+.notification-image img {
+  width: 24px;
+  height: 24px;
+}
+
+.notification button {
+  position: absolute;
+  right: .3em;
+  top: .3em;
+  float: right;
+  font-weight: 700;
+  color: #fff;
+  outline: none;
+  border: none;
+  text-shadow: 0 1px 0 #fff;
+  line-height: 1;
+  font-size: 16px;
+  padding: 0;
+  cursor: pointer;
+  background: 0 0;
+  border: 0
+}
+
+@keyframes toast-in-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-10%);
+  }
+}
+
+@keyframes toast-out-right {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(200%);
+  }
+}

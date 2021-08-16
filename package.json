@@ -1,0 +1,27 @@
+{
+  "name": "react-notifications",
+  "version": "1.0.0",
+  "description": "used to create notifications",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist --copy-files"
+  },
+  "peerDependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
+  },
+  "author": "Vipul Singh Raghuvanshi",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "dependencies": {
+    "event-emitter": "^0.3.5",
+    "uuid": "^3.3.2"
+  }
+}
