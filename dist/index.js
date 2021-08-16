@@ -154,7 +154,7 @@ var Notification = function Notification() {
         },
         _react2.default.createElement(
           'div',
-          { className: 'toast' },
+          { className: 'toaster' },
           _react2.default.createElement(
             'div',
             { className: 'notification-image' },

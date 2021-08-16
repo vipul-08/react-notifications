@@ -108,7 +108,7 @@ const Notification = () => {
             className="notification"
             style={{ backgroundColor: toast.backgroundColor }}
           >
-            <div className="toast">
+            <div className="toaster">
               <div className="notification-image">
                 <img src={toast.icon} alt="" />
               </div>
