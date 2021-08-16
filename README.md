@@ -4,7 +4,7 @@
 ## Installation
 
 ```
-  $ yarn add git+ssh://git@tree.mn:vipul.s/react-notifications.git
+  $ yarn add http://github.com/vipul-08/react-notifications.git
 ```
 
 ## Usage
